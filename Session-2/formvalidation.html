@@ -42,9 +42,10 @@
                         <div class="input-group-prpepnd">
                             <span class="input-group-text" id="inputGroupPrepend">@</span>
                         </div>
-                    </div>
-                    <input type="text" class="form-control" id="valid03" placeholder="UserName" aria-describedby="inputGroupPrepend" required>
+                        <input type="text" class="form-control" id="valid03" placeholder="UserName" aria-describedby="inputGroupPrepend" required>
 
+                    </div>
+                    
                     <!--CUSTOM VALIDATION-->
                     <div class="invalid-feedback">
                         User Name Can not be Empty
@@ -97,7 +98,7 @@
                 </fieldset>
                 </div>
 
-                 
+                <div class="col-md-6 mb-3">
                 <p>Where did you find us?</p>
                 <div class="form-check form-check-inline">
                     <input type="radio" class="form-check-input" value="l1" id="ch1" name="location">
@@ -116,7 +117,7 @@
                     <label for="ch4" class="form-check-label">LinkedIn</label>
                 </div>
                     
-                  
+            </div>
 
             </div>
 
@@ -126,15 +127,16 @@
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="check" required>
                         <label for="check" class="form-check-label">Agree Terms and Conditions</label>
+                        <!--CUSTOM VALIDATION-->
+            <div class="invalid-feedback">
+                You must Agree Before Submit
+            </div>
                     </div>
 
                 </div>
-                <!--CUSTOM VALIDATION-->
-                <div class="invalid-feedback">
-                    You must Agree Before Submit
-                </div>
+                
             </div>
-
+            
             <button class="btn btn-primary">Register</button>
 
         </form>
