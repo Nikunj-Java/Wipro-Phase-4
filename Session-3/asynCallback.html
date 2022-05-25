@@ -10,10 +10,11 @@
     
     <script>
         function fetch(callback){
+            callback();
             setTimeout(
                 function(){
                     console.log("Data fetched");
-                    callback();
+                    //callback();
                 }
                 ,5000);
         }
